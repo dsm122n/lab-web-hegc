@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+<!--     <script src="https://cdn.jsdelivr.net/npm/csv-parser@3.0.0/index.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf2json/2.3.0/pdf2json.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+    
+    <script src="index.js"></script>
+    <title>lector</title>
+</head>
+<body>
+    <div class="container-fluid">
+       
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane container active" id="primera">
+                
+                <textarea  id="pdfUrl" cols="30" rows="1">https://api.en.hegc.cl/dms/files/7214483?forceDownload=false&pretty-file-name=EXAMEN%20LABORATORIO</textarea>
+                <button id="boton" onclick="extractTextFromPDF()">
+                    leer pdf
+                </button>
+                <br>
+                <textarea  id="outputDiv" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+    </div>
+    <script>
+    </script>
+</body>
+</html>
