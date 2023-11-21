@@ -559,12 +559,11 @@ function extractTextFromPDF() {
                             const element = examenesStringsArray[i];
                             finalString += `\n ${element}`;
                         }
-                        document.getElementById('outputDiv').textContent = finalString;
+                        
+                        
+                        document.getElementById('outputDiv').textContent = finalString + "\n" ;
                         // select text from text outputDiv and copy to clipboard
                         document.getElementById('outputDiv').select();
-                        document.execCommand('copy');
-
-
                     
                 });
             });
