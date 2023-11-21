@@ -1,4 +1,7 @@
-require('pdfjs-dist/build/pdf.worker')
+// import * as pdfjsLib from 'pdfjs-dist';
+// import 'pdfjs-dist/build/pdf.worker';
+
+
 class diaExamen {
     constructor(fecha, hora){
         this.fecha = fecha;
@@ -15,7 +18,7 @@ class diaExamen {
             Plaquetas: null
         };
         this.gases = {
-            arterial: false,
+            
             pH: null,
             pCO2: null,
             pO2: null,
